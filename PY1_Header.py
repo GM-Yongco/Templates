@@ -1,7 +1,7 @@
 # Description     : Code that will impress u ;)
 # Author          : G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
 # Date            : ur my date uwu
-# HEDERS =================================================================
+# HEADERS ================================================================
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.

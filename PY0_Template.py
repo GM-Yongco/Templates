@@ -1,7 +1,7 @@
 # Description     : Code that will impress u ;)
 # Author          : G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
 # Date            : ur my date uwu
-# HEDERS =================================================================
+# HEADERS ================================================================
 
 from PY1_Header import *
 
