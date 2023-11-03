@@ -10,10 +10,13 @@ from PY1_Header import *
 # ========================================================================
 
 def main():
-    print_hi("hi")
+	print_hi("hi")
+
+def section(x:str = "SECTION"):
+	ret_val = f"\n {x} {'-' * (40 - len(x))}\n"
+	print(ret_val)
 
 if __name__ == '__main__':
-	print("\nSTART ----------------------------------------")
+	section("START")
 	main()
-
-	print("\nEND ------------------------------------------")
+	section("END")
