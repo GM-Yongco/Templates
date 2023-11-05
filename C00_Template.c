@@ -14,9 +14,9 @@
 // =======================================================================
 
 int main(){
-    separator("START");
+	separator("START");
 
-    
-    separator("END");
-    return 0;
+	
+	separator("END");
+	return 0;
 }

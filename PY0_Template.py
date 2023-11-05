@@ -12,6 +12,10 @@ from PY1_Header import *
 def main():
 	print_hi("hi")
 
+# ========================================================================
+# MISC FUNCTIONS
+# ========================================================================
+
 def section(x:str = "SECTION"):
 	ret_val = f"\n {x} {'-' * (40 - len(x))}\n"
 	print(ret_val)
