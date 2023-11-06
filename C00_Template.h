@@ -19,7 +19,7 @@ typedef enum boolean{FALSE, TRUE}BOOLEAN;
 // =======================================================================
 
 void separator(char* message){
-	int count = 43;
+	int count = 43; 				//additional 3 for the (\n)s and the \0
 	char new_string[count];
 
 	memset(new_string, '-', count);
