@@ -16,6 +16,7 @@
 int main(){
 	separator("START");
 
+	error_in("main");
 	
 	separator("END");
 	return 0;
