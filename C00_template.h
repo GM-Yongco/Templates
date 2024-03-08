@@ -2,13 +2,18 @@
 // Description     : Code that will impress u ;)
 // Author          : G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
 // Date            : ur my date uwu
+// rules			:
+//		use snake case
+//		all user defined typedefs should be all caps
 // =======================================================================
 
 #include <stdio.h>
 #include <string.h>
 
+typedef enum{FALSE, TRUE}BOOLEAN;
+
 // =======================================================================
-// MISC FUNCTIONS 1
+// MISC FUNCTIONS
 // =======================================================================
 
 void separator(char* message){
@@ -28,22 +33,7 @@ void separator(char* message){
 
 	printf("%s", new_string);
 }
-void error_in(char* function_name){
-	int count = 53; 				//additional 3 for the (\n)s and the \0
-	char new_string[count];
-	char error_teplate[] = "Error in function: ";
 
-	memset(new_string, '-', count);
-
-	new_string[0] = '\n';
-	new_string[count-2] = '\n';
-	new_string[count-1] = '\0';
-
-	memcpy(new_string + 1, error_teplate, strlen(error_teplate));
-	memcpy(new_string + 1 + strlen(error_teplate), function_name, strlen(function_name));
-
-	new_string[strlen(error_teplate) + strlen(function_name) + 1] = ' ';
-
-	printf("%s", new_string);
-}
-
+// =======================================================================
+// CORE FUNCTIONS 1
+// =======================================================================
