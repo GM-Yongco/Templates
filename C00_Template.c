@@ -7,8 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "C00_misc.h"
-#include "C00_core.h"
+#include "C00_template.h"
 
 // =======================================================================
 // MAIN
@@ -16,8 +15,6 @@
 
 int main(){
 	separator("START");
-
-	error_in("main");
 	
 	separator("END");
 	return 0;
