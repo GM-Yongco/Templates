@@ -7,7 +7,7 @@
 # MISC FUNCTIONS
 # ========================================================================
 
-def section(x:str = "SECTION"):
+def section(x:str = "SECTION") -> None:
 	ret_val = f"\n {x} {'-' * (40 - len(x))}\n"
 	print(ret_val)
 
@@ -21,7 +21,7 @@ def section(x:str = "SECTION"):
 # MAIN 
 # ========================================================================
 
-def main():
+def main() -> None:
 	print("hi")
 
 if __name__ == '__main__':
