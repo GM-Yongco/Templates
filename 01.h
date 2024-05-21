@@ -1,17 +1,17 @@
 // =======================================================================
-// Description     : Code that will impress u ;)
 // Author          : G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
 // Date            : ur my date uwu
 // rules			:
 //		use snake case
 //		all user defined typedefs should be all caps
+// Description     : Code that will impress u ;)
 // =======================================================================
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-typedef enum{FALSE, TRUE}BOOLEAN;
+typedef enum{False, True}BOOLEAN;
 
 // =======================================================================
 // MISC FUNCTIONS

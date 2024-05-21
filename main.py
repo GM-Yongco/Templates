@@ -1,13 +1,13 @@
-# Description		: Code that will impress u ;)
 # Author			: G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
 # Date				: ur my date uwu
+# Description		: Code that will impress u ;)
 # HEADERS ================================================================
 
 # ========================================================================
 # MISC FUNCTIONS
 # ========================================================================
 
-def section(x:str = "SECTION") -> None:
+def separator(x:str = "SECTION") -> None:
 	ret_val = f"\n {x} {'-' * (40 - len(x))}\n"
 	print(ret_val)
 
@@ -25,6 +25,6 @@ def main() -> None:
 	print("hi")
 
 if __name__ == '__main__':
-	section("START")
+	separator("START")
 	main()
-	section("END")
+	separator("END")
