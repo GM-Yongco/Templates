@@ -7,9 +7,9 @@
 # FUNCTIONS MISC
 # ========================================================================
 
-def separator(x:str = "SECTION") -> None:
-	section:str = f"\n {x} {'-' * (40 - len(x))}\n"
-	print(section)
+def section(section_name:str = "SECTION") -> None:
+	section_name = f"\n {section_name} {'-' * (40 - len(section_name))}\n"
+	print(section_name)
 
 # ========================================================================
 # FUNCTIONS 
@@ -22,5 +22,5 @@ def separator(x:str = "SECTION") -> None:
 # ========================================================================
 
 if __name__ == '__main__':
-	separator("START")
-	separator("END")
+	section("START")
+	section("END")
