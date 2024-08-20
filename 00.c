@@ -1,7 +1,7 @@
 // =======================================================================
-// Author          : G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
-// Date            : ur my date uwu
-// Description     : Code that will impress u ;)
+// Author			: G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
+// Date				: ur my date uwu
+// Description		 Code that will impress u ;)
 // =======================================================================
 
 #include <stdio.h>
