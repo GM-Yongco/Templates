@@ -38,7 +38,7 @@ void section(char* section_name){
 		message_len = 49;
 	}
 
-	memcpy(new_string + 2, section_name, );
+	memcpy(new_string + 2, section_name, strlen(section_name));
 	
 	// places a space between the section_name and the dashes
 	new_string[strlen(section_name) + 2] = ' ';
