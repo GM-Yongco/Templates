@@ -1,11 +1,12 @@
-// =======================================================================
-// Author		: G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
-// Date			: ur my date uwu
-// rules		:
-//		use snake case
-//		all user defined typedefs should be all caps
-// Description	: Code that will impress u ;)
-// =======================================================================
+/* =======================================================================
+author		: G.M. Yongco #BeSomeoneWhoCanStandByShinomiya
+date		: ur my date uwu
+format		:
+	used snake case
+	all user defined types are all caps
+description	: Code that will impress u ;)
+	actual description
+// ======================================================================= */
 // HEADERS
 // =======================================================================
 
