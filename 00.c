@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "helper.h"
 #include "01.h"
 
 // =======================================================================
@@ -15,6 +16,8 @@
 
 int main(){
 	section("START");
+	
+	example_function("wiwi");
 	
 	section("END");
 	return 0;
