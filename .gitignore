@@ -3,10 +3,16 @@ settings.json
 ./.vscode
 tempCodeRunnerFile.py
 *.code-workspace
+_.py
 
-*.exe
+*.png
+*.jpg
+*.jpeg
 
-temp*
+temp_*
+temp.*
 secret*
+
 *.env
 *.db
+*.exe
